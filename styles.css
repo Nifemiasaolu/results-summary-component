@@ -4,35 +4,32 @@
     padding: 0;
 }
 
-body{
+body {
     font-family: "Hanken Grotesk";
 }
 
-.container{
+.container {
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
-.card{
+.card {
     display: flex;
     position: absolute;
     top: 35%;
-    bottom:50%;
-    transform: translate(-50,-50);
+    bottom: 50%;
+    transform: translate(-50, -50);
     height: 30%;
-    
-
 }
 
-.card-left{
+.card-left {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
-.circle-div{
+.circle-div {
     background-color: red;
     height: 50%;
     border-radius: 50%;
@@ -41,22 +38,18 @@ body{
     margin: 5%;
 }
 
-.card-text{
+.card-text {
     width: 50%;
 }
 
-
-.card-right{
-    
+.card-right {
 }
 
-.card-right img{
+.card-right img {
     width: 8%;
     height: 3%;
     margin-right: auto;
 }
-
-
 
 .attribution {
     font-size: 11px;
