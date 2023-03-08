@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Hanken Grotesk";
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card{
+    display: flex;
+    position: absolute;
+    top: 35%;
+    bottom:50%;
+    transform: translate(-50,-50);
+    height: 30%;
+    
+
+}
+
+.card-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.circle-div{
+    background-color: red;
+    height: 50%;
+    border-radius: 50%;
+    width: 10%;
+    text-align: center;
+    margin: 5%;
+}
+
+.card-text{
+    width: 50%;
+}
+
+
+.card-right{
+    
+}
+
+.card-right img{
+    width: 8%;
+    height: 3%;
+    margin-right: auto;
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
