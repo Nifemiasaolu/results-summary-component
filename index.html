@@ -27,41 +27,63 @@
         <title>Frontend Mentor | Results summary component</title>
     </head>
     <body>
-        <div class="container">
-            <div class="card">
-                <div class="card-left">
-                    <p>Your Result</p>
+        <div class="card-container">
+            <div class="card-container-left">
+                <h3>Your Result</h3>
+
+                <div class="card-container-left-circle">
                     <div class="circle-div">
                         <h1>76</h1>
                         <p>of 100</p>
                     </div>
+                </div>
+
+                <div class="card-container-left-text">
                     <h2>Great</h2>
-                    <p class="card-text">
-                        You scored higher than 65% of the people who have taken these tests.
-                    </p>
+                <p class="card-text">
+                    You scored higher than 65% of the people who have taken these tests.
+                </p>
                 </div>
+            </div>
 
-                <div class="card-right">
-                    <h3>Summary</h3>
-                    <div class="icon">
-                        <img src="./assets/images/icon-reaction.svg" alt="" />
-                        Reaction 80 / 100
-                    </div>
-                    <div class="icon">
-                        <img src="./assets/images/icon-memory.svg" alt="" />
-                        Memory 92 / 100
-                    </div>
-                    <div class="icon">
-                        <img src="./assets/images/icon-verbal.svg" alt="" />
-                        Verbal 61 / 100
-                    </div>
-                    <div class="icon">
-                        <img src="./assets/images/icon-visual.svg" alt="" />
-                        Visual 72 / 100
+
+            <div class="card-container-right">
+                <h2>Summary</h2>
+                <div class="card-right-group">
+                    <div class="group-reaction">
+                        <div class="group-reaction-icon">
+                            <img src="./assets/images/icon-reaction.svg" alt="" />
+                           <p>Reaction</p>  
+                        </div>
+                        <p class="span-b"> <b>80</b> / 100</p>
                     </div>
 
-                    <button>Continue</button>
-                </div>
+                    <div class="group-memory">
+                        <div class="group-memory-icon">
+                            <img src="./assets/images/icon-memory.svg" alt="" />
+                           <p>Memory</p>  
+                        </div>
+                        <p class="span-b"> <b>92</b> / 100</p>
+                    </div>
+
+                    <div class="group-verbal">
+                        <div class="group-verbal-icon">
+                            <img src="./assets/images/icon-verbal.svg" alt="" />
+                           <p>Verbal</p>  
+                        </div>
+                        <p class="span-b"> <b>61</b> / 100</p>
+                    </div>
+                    <div class="group-visual">
+                        <div class="group-visual-icon">
+                            <img src="./assets/images/icon-visual.svg" alt="" />
+                           <p>Visual</p>  
+                        </div>
+                        <p class="span-b"> <b>72</b> / 100</p>
+                    </div>
+               </div>
+                
+
+                <button>Continue</button>
             </div>
         </div>
 
