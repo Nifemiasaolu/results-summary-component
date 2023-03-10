@@ -5,51 +5,88 @@
 }
 
 body {
-    font-family: "Hanken Grotesk";
-}
-
-.container {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.card {
-    display: flex;
-    position: absolute;
-    top: 35%;
-    bottom: 50%;
-    transform: translate(-50, -50);
-    height: 30%;
-}
-
-.card-left {
+    font-family: "Hanken Grotesk", sans-serif;
+    min-width: 375px;
+    max-width: 1440px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    font-size: 18px;
 }
 
-.circle-div {
-    background-color: red;
-    height: 50%;
-    border-radius: 50%;
-    width: 10%;
+.card-container{
+    width: 25%;
+}
+
+.card-container-left{
     text-align: center;
-    margin: 5%;
+    height: 22.3rem;
+    border-radius: 0 0 1.12rem 1.12rem;
+    padding-top: 30px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
 }
 
-.card-text {
-    width: 50%;
+.card-container-left h3{
+    color: hsl(241, 100%, 89%);
 }
 
-.card-right {
+.card-container-left-circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 18px;
 }
 
-.card-right img {
-    width: 8%;
-    height: 3%;
-    margin-right: auto;
+.circle-div{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    justify-content: center;
+    align-items: center;
+    width: 8.75rem;
+    height: 8.75rem;
 }
+
+.circle-div h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.circle-div p{
+    color: hsl(241, 100%, 89%);
+}
+
+.card-container-left-text h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+.card-text{
+    margin: 25px auto;
+    width: 80%;
+    color: hsl(241, 100%, 89%);
+    
+}
+
+.card-container-right{
+    padding: 28px;
+}
+
+.card-container-right h2{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
 
 .attribution {
     font-size: 11px;
