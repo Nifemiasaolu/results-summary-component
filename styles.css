@@ -6,58 +6,58 @@
 
 body {
     font-family: "Hanken Grotesk", sans-serif;
-    min-width: 375px;
     max-width: 1440px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
+    min-width: 375px;
 }
 
-.card-container{
+.card-container {
+    align-items: center;
+    box-shadow: 10px 10px 20px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-container-left {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 1.12rem 0 1.12rem 1.12rem;
+    height: 25.3rem;
+    padding-top: 30px;
+    text-align: center;
     width: 25%;
 }
 
-.card-container-left{
-    text-align: center;
-    height: 22.3rem;
-    border-radius: 0 0 1.12rem 1.12rem;
-    padding-top: 30px;
-    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-
-}
-
-.card-container-left h3{
+.card-container-left h3 {
     color: hsl(241, 100%, 89%);
 }
 
-.card-container-left-circle{
+.card-container-left-circle {
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     margin: 18px;
 }
 
-.circle-div{
+.circle-div {
+    align-items: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
     display: flex;
     flex-direction: column;
-    border-radius: 50%;
-    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-    justify-content: center;
-    align-items: center;
-    width: 8.75rem;
     height: 8.75rem;
+    justify-content: center;
+    width: 8.75rem;
 }
 
-.circle-div h1{
+.circle-div h1 {
     color: hsl(0, 0%, 100%);
-    font-weight: 800;
     font-size: 2.5rem;
+    font-weight: 800;
 }
 
-.circle-div p{
+.circle-div p {
     color: hsl(241, 100%, 89%);
 }
 
@@ -65,28 +65,93 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
-.card-text{
+.card-text {
+    color: hsl(241, 100%, 89%);
     margin: 25px auto;
     width: 80%;
-    color: hsl(241, 100%, 89%);
-    
 }
 
-.card-container-right{
+.card-container-right {
     padding: 28px;
 }
 
-.card-container-right h2{
+.card-container-right h2 {
     margin-bottom: 25px;
 }
 
+.group {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    height: 3.4rem;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 15px;
+}
 
+.group-icon {
+    display: flex;
+}
 
+.group-icon img {
+    margin-right: 15px;
+}
 
+.span-b {
+    color: grey;
+    font-weight: 700;
+}
 
+b {
+    color: black;
+}
 
+.reaction {
+    background-color: hsla(0, 100%, 50%, 0.2);
+}
 
+.reaction-icon {
+    color: #ce555e;
+}
 
+.memory {
+    background-color: hsl(44, 91%, 54%, 0.4);
+}
+
+.memory-icon {
+    color: #f0a715;
+}
+
+.verbal {
+    background-color: hsl(158, 88%, 38%, 0.2);
+}
+
+.verbal-icon {
+    color: #3da185;
+}
+
+.visual {
+    background-color: hsl(215, 100%, 34%, 0.2);
+}
+
+.visual-icon {
+    color: hsl(215, 100%, 34%);
+}
+
+button {
+    background-color: hsla(240, 20%, 50%);
+    border-radius: 28px;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    height: 3.4rem;
+    width: 100%;
+}
+
+button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
 
 .attribution {
     font-size: 11px;
